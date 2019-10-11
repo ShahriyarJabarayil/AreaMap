@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pro2010"
+        android:title="@string/opt_menu_2010_projects"
+        app:showAsAction="withText">
+    </item>
+    <item
+        android:id="@+id/pro2030"
+        android:title="@string/opt_menu_2030_projects">
+    </item>
+    <item
+        android:icon="@drawable/ic_maps"
+        android:id="@+id/activity_map"
+        android:title="@string/opt_menu_map_activity">
+    </item>
+    <item
+
+        android:icon="@drawable/ic_web_page_area"
+        android:id="@+id/webpage"
+        android:title="@string/opt_menu_webpage">
+    </item>
+    <item
+        android:icon="@drawable/ic_settings_"
+        android:id="@+id/setting"
+        android:title="@string/opt_menu_settings">
+    </item>
+    <item
+
+        android:id="@+id/main_app_logout"
+        android:title="@string/app_exit">
+    </item>
+
+
+</menu>

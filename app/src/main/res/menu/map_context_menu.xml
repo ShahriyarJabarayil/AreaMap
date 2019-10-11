@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/yearprojects"
+        android:title="@string/popup_menu_years_projects"
+        app:showAsAction="withText">
+        <menu>
+            <item
+                android:icon="@drawable/ic_maps"
+                android:id="@+id/allprojects"
+                android:title="@string/popup_menu_all_projects">
+            </item>
+            <item
+                android:icon="@drawable/ic_2010_project"
+                android:id="@+id/pro2010"
+                android:title="@string/popup_menu_2010_projects"
+                app:showAsAction="withText"/>
+            <item
+                android:icon="@drawable/ic_2030_project"
+                android:id="@+id/pro2030"
+                android:title="@string/popup_menu_2030_projects">
+            </item>
+
+        </menu>
+    </item>
+
+    <item
+
+        android:icon="@drawable/ic_web_page_area"
+        android:id="@+id/Stations"
+        android:title="@string/popup_menu_stations_projects">
+        <menu>
+            <item
+
+                android:icon="@drawable/ic_web_page_area"
+                android:id="@+id/SES_station"
+                android:title="@string/popup_menu_SES_projects"/>
+            <item
+
+                android:icon="@mipmap/ic_wind_logo"
+                android:id="@+id/KES_station"
+                android:title="@string/popup_menu_KES_projects"/>
+            <item
+
+                android:icon="@mipmap/ic_solar_logo1"
+                android:id="@+id/GES_station"
+                android:title="@string/popup_menu_GES_projects"/>
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_settings_"
+        android:id="@+id/setting"
+        android:title="@string/opt_menu_settings">
+    </item>
+    <item
+        android:id="@+id/app_logout"
+        android:title="@string/app_exit">
+    </item>
+</menu>

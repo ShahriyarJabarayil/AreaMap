@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProjectActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="AREA Layihelerini daxil edin"/>
+
+  <GridLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnCount="2">
+    <EditText
+        android:id="@+id/et_pr_name"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="LAYIHENIN ADINI"/>
+    <EditText
+        android:id="@+id/et_start_date"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="BASLAMA TARIXI"/>
+    <EditText
+        android:id="@+id/et_par1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Parametr1"/>
+    <EditText
+        android:id="@+id/et_par2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Parametr2"/>
+    <EditText
+        android:id="@+id/et_par3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Parametr3"/>
+    <EditText
+        android:id="@+id/et_par4"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Parametr4"/>
+    <EditText
+        android:id="@+id/et_par5"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Parametr5"/>
+    <EditText
+        android:id="@+id/et_date2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Aid oldugu il"/>
+    <EditText
+        android:id="@+id/et_geo_longitude"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="PARALLEL uzre Cografi olcusu"/>
+    <EditText
+        android:id="@+id/et_geo_latitude"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="MERIDIAN uzre Cografi olcusu"/>
+  </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesdiq et"
+            android:textColor="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Legv et"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

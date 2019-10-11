@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsActivity"
+    tools:menu="@menu/map_context_menu">
+
+
+
+
+    <fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_fragment"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+    <RelativeLayout
+        android:id="@+id/id_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:text="2011 layiheleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showPopupMenu"
+        android:src="@drawable/ic_settings_"/>
+
+    </RelativeLayout>
+</RelativeLayout>

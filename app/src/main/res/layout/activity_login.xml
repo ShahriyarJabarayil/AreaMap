@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher_foreground" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/head_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giriş edin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_interval"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/margin_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:drawableLeft="@drawable/ic_person_edit"
+                android:inputType="textEmailAddress"
+                android:id="@+id/et_mail"
+                android:background="@drawable/loginedittext"
+                android:layout_marginLeft="@dimen/margin_interval"
+                android:hint="Email"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_interval"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/margin_interval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+       <!--     <EditText
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawableRight="@drawable/ic_edit_password_eye"
+                android:background="@drawable/loginedittext"
+                android:id="@+id/et_password"
+                android:layout_marginLeft="@dimen/margin_interval"
+                android:hint="Şifrə"
+                android:layout_width="200dp"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content" />-->
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_password"
+                android:hint="Password"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawableRight="@drawable/ic_edit_password_eye"
+                app:drawable_show="@drawable/ic_edit_password_eye"
+                app:drawable_hide="@drawable/ic_edit_password_eye"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/margin_interval"
+        android:id="@+id/btn_login"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/loginbutton"
+        android:backgroundTint="@color/colorbtnlogin"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="Daxil olun"/>
+    <Button
+        android:layout_marginTop="@dimen/margin_interval"
+
+        android:id="@+id/btn_registration"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/loginbutton"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:text="Qeydiyyat"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</LinearLayout>
+
+
+
+

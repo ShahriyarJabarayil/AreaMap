@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:menu="@menu/map_context_menu"
+    >
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/search_bar_meal"
+        app:mt_speechMode="false"
+        app:mt_hint="axtarış edin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.mancj.materialsearchbar.MaterialSearchBar>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/id_appbarmain"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorBackgroundMainActivity">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_marginTop="5dp"
+            android:id="@+id/bottom_navigation_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground"
+            app:itemIconTint="@color/cardview_dark_background"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/bottom_navigation"
+            >
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/colorBackgroundMainActivity"
+        android:layout_below="@+id/search_bar_meal"
+        android:id="@+id/recyclerview_pro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/id_appbarmain" >
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AreaMap</string>
+    <string name="title_activity_maps">Area Map</string>
+    <string name="title_activity_areaproject_list">AREA Layihələri</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_map">XƏRİTƏNİ GÖSTƏR</string>
+    <string name="menu_slideshow">Listi Yenilə</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="opt_menu_2010_projects">2010 layihələrini listələ</string>
+    <string name="opt_menu_2030_projects">2030 layihələrini listələ</string>
+    <string name="opt_menu_map_activity">AREA Layihələri xəritəsi</string>
+    <string name="opt_menu_webpage">www.area.gov.az</string>
+    <string name="opt_menu_settings">Sazlamalar</string>
+
+    <string name="popup_menu_years_projects">İllər üzrə göstər</string>
+    <string name="popup_menu_all_projects">Bütün layihələri göstər</string>
+    <string name="popup_menu_2010_projects">2010 layihələrini göstər</string>
+    <string name="popup_menu_2030_projects">2030 layihələrini göstər</string>
+
+    <string name="popup_menu_stations_projects">Stansiyaları göstər</string>
+    <string name="popup_menu_SES_projects">SES-ləri göstər</string>
+    <string name="popup_menu_GES_projects">GES-ləri göstər</string>
+    <string name="popup_menu_KES_projects">KES-ləri göstər</string>
+    <string name="popup_menu_Circle_projects">Sazlamar</string>
+    <string name="app_exit">Çıxış</string>
+
+    <string name="title_activity_login">Daxil ol</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

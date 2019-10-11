@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_hom"
+        android:title=""
+        android:icon="@drawable/ic_home_nm"/>
+    <item
+        android:id="@+id/nav_web_page"
+        android:title=""
+        android:icon="@drawable/ic_web_page_area"/>
+    <item
+        android:id="@+id/nav_projects"
+        android:title=""
+        android:icon="@drawable/ic_chart_menu"/>
+    <item
+        android:id="@+id/nav_maps"
+        android:title=""
+        android:icon="@drawable/ic_maps"/>
+<item
+        android:id="@+id/main_moreMenu"
+        android:title=""
+        android:icon="@drawable/ic_more_menu">
+
+</item>
+    <!-- <item
+      android:id="@+id/cm1"
+      android:title="Xəritəyə baxış"
+      android:icon="@drawable/ic_maps"/>
+  <item
+      android:id="@+id/cm2"
+      android:title="Listəni qruplaşdır"
+      android:icon="@drawable/ic_maps"/>
+  <item
+      android:id="@+id/cm3"
+      android:title="Sazlama"
+      android:icon="@drawable/ic_maps"/>
+  <item
+      android:id="@+id/cm4"
+      android:title="Çıxış"
+      android:icon="@drawable/ic_maps"/>
+
+
+</item>-->
+
+
+
+</menu>
